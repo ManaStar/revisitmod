@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.manastar",
+		"id": "revisit",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
+			"name": "Revisit",
 			"description": "A short description of your mod.",
 			"contributors": {
-				"Your name here": "Owner"
+				"MiteBeMana": "Coder"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.manastar.revisit.core.Revisit"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "revisit.mixins.json"
 }

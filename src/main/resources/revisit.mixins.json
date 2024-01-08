@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.manastar.revisit.core.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SpiderAttackGoalMixin"
+  ],
+  "client": [
+    "SpiderModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
